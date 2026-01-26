@@ -67,6 +67,7 @@ table {
 .skipLink:focus {
   transform: translate(-50%, 0%);
   background: #1f454f;
+  color: #fff;
 }
 
 /* -----------------ROOT VARIABLES -----------------*/
