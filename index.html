@@ -328,8 +328,8 @@
 
                 <fieldset id="destination">
                     <legend>Destination<span aria-hidden="true" class="required">*</span></legend>
-                    <select id="select-destination">
-                        <option value="">Choose</option>
+                    <select id="select-destination" name="select-destination" required>
+                        <option value="">Select Destination</option>
                         <option value="Barcelona">Barcelona</option>
                         <option value="Granada">Granada</option>
                         <option value="Ibiza">Ibiza</option>
@@ -342,9 +342,9 @@
                     </select>
                 </fieldset>
                 <fieldset id="travelTime">
-                    <legend>Travel Time<span>*</span></legend>
-                    <select id="select-travel-time">
-                        <option value="">Choose</option>
+                    <legend>Travel Time<span aria-hidden="true" class="required">*</span></legend>
+                    <select id="select-travel-time" name="select-travel-time" required>
+                        <option value="">Select Travel Time</option>
                         <option value="Fall">Fall</option>
                         <option value="Winter">Winter</option>
                         <option value="Spring">Spring</option>
@@ -353,7 +353,7 @@
                     </select>
                 </fieldset>
 
-                <input type="submit" id="submit" name="submit">
+                <input type="submit" id="submit" name="submit" value="Submit">
 
             </form>
             
